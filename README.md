@@ -11,7 +11,7 @@ brew install portaudio
 
 ``go run terminal.go terminal_config.json``
 
-##Introduction:
+## Introduction:
 DistributedDJ is a distributed web radio that uses a peer-to-peer network where clients provide and stream songs that they locally own. Clients share the metadata of the songs they are willing to stream and are capable of voting amongst themselves to decide on the next song to play. The client with the selected song will become the host and stream the song to all the clients in the network. Playback of music is synchronized like traditional radio. Clients can join and and leave the network. They form a complete graph.
 
 ![alt text](https://user-images.githubusercontent.com/14913591/75271770-980c6b00-57b1-11ea-8474-06acfc80be01.png)
